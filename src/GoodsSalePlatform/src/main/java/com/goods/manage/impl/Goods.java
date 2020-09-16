@@ -20,13 +20,13 @@ public class Goods {
 	/**
 	 * …Ã∆∑ Ù–‘
 	 */
-	private String goodsProp;
+	private String goodsAttr;
 	
-	public String getGoodsProp() {
-		return goodsProp;
+	public String getGoodsAttr() {
+		return goodsAttr;
 	}
-	public void setGoodsProp(String goodsProp) {
-		this.goodsProp = goodsProp;
+	public void setGoodsAttr(String goodsAttr) {
+		this.goodsAttr = goodsAttr;
 	}
 	public String getGoodsName() {
 		return goodsName;
