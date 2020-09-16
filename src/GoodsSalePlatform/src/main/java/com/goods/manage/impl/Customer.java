@@ -16,7 +16,7 @@ public class Customer {
 	/**
 	 * ¹Ë¿ÍµØÖ·
 	 */
-	private String customerAddress;
+	private String customerFictAddress;
 	public String getCustomerName() {
 		return customerName;
 	}
@@ -29,13 +29,10 @@ public class Customer {
 	public void setCustomerNo(String customerNo) {
 		this.customerNo = customerNo;
 	}
-	public String getCustomerAddress() {
-		return customerAddress;
+	public String getCustomerFictAddress() {
+		return customerFictAddress;
 	}
-	public void setCustomerAddress(String customerAddress) {
-		this.customerAddress = customerAddress;
+	public void setCustomerFictAddress(String customerFictAddress) {
+		this.customerFictAddress = customerFictAddress;
 	}
-	
-	
-	
 }
