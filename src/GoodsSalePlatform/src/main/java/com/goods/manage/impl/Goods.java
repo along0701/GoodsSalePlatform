@@ -21,7 +21,17 @@ public class Goods {
 	 * 商品属性
 	 */
 	private String goodsAttr;
+	/**
+	 * 年销售额（万元）
+	 */
+	private double saleQuto;
 	
+	public double getSaleQuto() {
+		return saleQuto;
+	}
+	public void setSaleQuto(double saleQuto) {
+		this.saleQuto = saleQuto;
+	}
 	public String getGoodsAttr() {
 		return goodsAttr;
 	}
@@ -46,7 +56,5 @@ public class Goods {
 	public void setGoodsPrice(double goodsPrice) {
 		this.goodsPrice = goodsPrice;
 	}
-	
-	
 	
 }
