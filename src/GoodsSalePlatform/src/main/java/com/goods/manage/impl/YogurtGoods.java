@@ -17,6 +17,18 @@ public class YogurtGoods extends Goods {
 	 */
 	private Date guarantee;
 	
+	/**
+	 * се╩щ
+	 */
+	private String discount;
+	
+	public String getDiscount() {
+		return discount;
+	}
+	public void setDiscount(String discount) {
+		this.discount = discount;
+	}
+	
 	public String getMilkSource() {
 		return milkSource;
 	}
