@@ -17,6 +17,27 @@ public class Customer {
 	 * 顾客地址
 	 */
 	private String customerFictAddress;
+	/**
+	 * 顾客属性（新老顾客）
+	 */
+	private String customerAttr;
+	/**
+	 * 年购买额
+	 */
+	private double buyQuto;
+	
+	public double getBuyQuto() {
+		return buyQuto;
+	}
+	public void setBuyQuto(double buyQuto) {
+		this.buyQuto = buyQuto;
+	}
+	public String getCustomerAttr() {
+		return customerAttr;
+	}
+	public void setCustomerAttr(String customerAttr) {
+		this.customerAttr = customerAttr;
+	}
 	public String getCustomerName() {
 		return customerName;
 	}
